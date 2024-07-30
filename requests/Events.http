@@ -1,0 +1,32 @@
+//EVENTS HTTP TEST
+###
+GET http://localhost:5045/events
+
+
+###
+GET http://localhost:5045/events/2
+
+
+###
+POST  http://localhost:5045/events
+Content-Type: application/json
+
+{
+    "Name": "Burning Man",
+    "Description": "Un festival interesante",
+    "Date": "2023-12-31T23:59:59",
+    "MaxCapacity": 500
+}
+
+###
+PUT http://localhost:5045/events/2
+Content-Type: application/json
+
+{
+    "Name": "Coachella",
+    "Description": "Electronic dance music baby",
+    "Date": "2026-12-31T23:59:59",
+    "MaxCapacity": 1000
+}
+###
+DELETE http://localhost:5045/events/3

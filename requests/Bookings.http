@@ -1,0 +1,15 @@
+###
+GET http://localhost:5045/bookings
+
+###
+GET http://localhost:5045/bookings/2
+
+###
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "andredubbs19",
+    "EVentId": 2,
+    "Amount": 10
+}

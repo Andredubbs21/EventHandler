@@ -1,0 +1,41 @@
+//USERS HTTP TEST
+###
+GET http://localhost:5045/users
+
+###
+GET http://localhost:5045/users/22
+
+###
+GET http://localhost:5045/users/user_name/andredubbs19
+
+###
+POST  http://localhost:5045/users
+Content-Type: application/json
+
+{
+    "Username": "kurobattv",
+    "FirstName": "Alessandro",
+    "LastName": "Ayestas",
+    "Email": "aleayestas@gmail.com",
+    "PhoneNumber": "9236-4565"
+}
+
+###
+
+PUT http://localhost:5045/users/22
+Content-Type: application/json
+
+{
+    "Username": "KurobaTTV",
+    "FirstName": "Alessandro",
+    "LastName": "Ayestas",
+    "Email": "blackuroba@gmail.com",
+    "PhoneNumber": "9236-4565"
+}
+
+###
+DELETE http://localhost:5045/users/18
+
+###
+DELETE http://localhost:5045/users/user_name/andredubbs
+

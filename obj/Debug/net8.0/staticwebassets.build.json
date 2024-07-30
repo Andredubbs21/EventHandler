@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z9bH9AGMBtA1Sc1qF50lVx3KJMhmGcfi2wPEVWKh9w0=",
+  "Source": "EventHandler.Api",
+  "BasePath": "_content/EventHandler.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
