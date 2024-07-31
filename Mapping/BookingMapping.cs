@@ -33,11 +33,12 @@ public static class BookingMapping
 
      //Maps an entity to a detailed booking data transfer object
     public static BookingDetailsDto ToBookingDetailsDto(this Booking booking){
-        return new(
-            booking.Id,
-            booking.Username,
-            booking.EventId,
-            booking.Amount
-        );
+        return new BookingDetailsDto(){
+            Id = booking.Id,
+            Username = booking.Username, 
+            EventId = booking.EventId,
+            EventName = "",
+            Amount = booking.Amount
+        };
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W4C9Rcn9t4o=",
+  "dgSpecHash": "+5F47LM+pfM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\concurrencia\\EventHandler\\EventHandler.Api\\EventHandler.Api.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\concurrencia\\EventHandler\\EventHandler.api\\EventHandler.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

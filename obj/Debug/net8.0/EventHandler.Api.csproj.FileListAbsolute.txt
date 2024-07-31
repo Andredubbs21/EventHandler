@@ -127,3 +127,4 @@ C:\Users\andre\OneDrive\Desktop\concurrencia\EventHandler\EventHandler.Api\obj\D
 C:\Users\andre\OneDrive\Desktop\concurrencia\EventHandler\EventHandler.Api\obj\Debug\net8.0\EventHandler.Api.pdb
 C:\Users\andre\OneDrive\Desktop\concurrencia\EventHandler\EventHandler.Api\obj\Debug\net8.0\EventHandler.Api.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Desktop\concurrencia\EventHandler\EventHandler.Api\obj\Debug\net8.0\ref\EventHandler.Api.dll
+C:\Users\andre\OneDrive\Desktop\concurrencia\EventHandler\EventHandler.Api\obj\Debug\net8.0\EventHandler.Api.sourcelink.json

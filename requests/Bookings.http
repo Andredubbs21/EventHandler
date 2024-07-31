@@ -2,14 +2,116 @@
 GET http://localhost:5045/bookings
 
 ###
-GET http://localhost:5045/bookings/2
+GET http://localhost:5045/bookings/17
+
+###
+GET http://localhost:5045/bookings/user_name/johndoe
+
+###
+GET http://localhost:5045/bookings/event_id/16
 
 ###
 POST http://localhost:5045/bookings
 Content-Type: application/json
 
 {
-    "Username": "andredubbs19",
-    "EVentId": 2,
-    "Amount": 10
+    "Username": "johndoe",
+    "EventId": 13,
+    "Amount": 50
 }
+###w
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "johndoe",
+    "EventId": 14,
+    "Amount": 1200
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "janedoe",
+    "EventId": 15,
+    "Amount": 3000
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "bobsmith",
+    "EventId": 16,
+    "Amount": 2000
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "alicejohnson",
+    "EventId": 17,
+    "Amount": 1500
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "charliebrown",
+    "EventId": 18,
+    "Amount": 2500
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "emilywhite",
+    "EventId": 19,
+    "Amount": 1000
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "frankgreen",
+    "EventId": 20,
+    "Amount": 4000
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "gracehill",
+    "EventId": 21,
+    "Amount": 3500
+}
+###
+
+POST http://localhost:5045/bookings
+Content-Type: application/json
+
+{
+    "Username": "henryadams",
+    "EventId": 13,
+    "Amount": 50
+}
+###
+Delete http://localhost:5045/bookings/user_event/henryadams/13
+
+
+### 
+DELETE http://localhost:5045/bookings/25
